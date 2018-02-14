@@ -1,0 +1,50 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="DarkBoxesAppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/black500</item>
+        <item name="colorPrimaryDark">@color/black700</item>
+        <item name="colorAccent">@color/orange500</item>
+        <item name="android:windowBackground">@color/white200</item>
+        <item name="android:windowLightStatusBar" tools:targetApi="m">false</item>
+        <item name="android:textColorPrimary">@color/white100</item>
+    </style>
+
+
+
+    <style name="brightBoxesAppTheme" parent="Theme.AppCompat.Light.DarkActionBar" tools:targetApi="m">
+        <item name="colorPrimary">@color/white200</item>
+        <item name="colorPrimaryDark">@color/white100</item>
+        <item name="colorAccent">@color/orange500</item>
+        <item name="android:shadowColor">@color/white200</item>
+        <item name="android:windowBackground">@color/black500</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:textColor">@color/black700</item>
+        <item name="actionBarStyle">@style/DarkAppThemeActionBar</item>
+        <item name="android:textColorPrimary">@color/black700</item>
+    </style>
+
+    <style name="DarkAppThemeActionBar" parent="Widget.AppCompat.ActionBar">
+        <item name="background">@drawable/white200_bg_with_black500_top_line</item>
+        <item name="titleTextStyle">@style/DarkAppThemeActionBarTitle</item>
+    </style>
+
+    <style name="DarkAppThemeActionBarTitle" parent="TextAppearance.AppCompat.Title">
+        <item name="android:textColor">@color/black700</item>
+    </style>
+
+
+
+    <style name="AuthActivityTheme" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:windowBackground">@drawable/auth_activity_background</item>
+        <item name="android:scaleType">centerCrop</item>
+    </style>
+
+    <style name="brightBoxDialog" parent="ThemeOverlay.AppCompat.Dialog.Alert">
+        <item name="android:windowBackground">@drawable/bright_box_bg</item>
+    </style>
+
+    <style name="darkBoxDialog" parent="ThemeOverlay.AppCompat.Dialog.Alert">
+        <item name="android:windowBackground">@drawable/dark_box_bg</item>
+    </style>
+
+</resources>

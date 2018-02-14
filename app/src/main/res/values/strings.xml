@@ -1,0 +1,25 @@
+<resources>
+
+    <string name="title_activity_splash">SplashActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+
+
+    <!-- Splash -->
+    <string name="app_name">KTMunity</string>
+    <string name="splashScreen_Greetings">%sתגידו שלום ל</string>
+
+    <!-- Auth related -->
+    <string name="facebook_application_id" translatable="false">com.itaycohen.ktmunity</string>
+    <string name="facebook_login_protocol_scheme" translatable="false">fbcom.itaycohen.ktmunity</string>
+    <string name="facebook_app_id">139403886739012</string>
+    <string name="fb_login_protocol_scheme">fb139403886739012</string>
+    <string name="terms_link">https://ktm.com/terms-of-service.html</string>
+    <string name="logout">התנתק</string>
+
+
+
+    <string name="shouldLogOut">האם להתנתק?</string>
+    <string name="no">לא</string>
+    <string name="yesLogout">כן, התנתק.</string>
+</resources>

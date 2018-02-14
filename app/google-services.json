@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "932469711801",
+    "firebase_url": "https://ktmunity-79155.firebaseio.com",
+    "project_id": "ktmunity-79155",
+    "storage_bucket": "ktmunity-79155.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:932469711801:android:657b1a246907ef9d",
+        "android_client_info": {
+          "package_name": "com.itaycohen.ktmunity"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "932469711801-4c8079q8kb8n3h35qgv58cnbdc16lsun.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.itaycohen.ktmunity",
+            "certificate_hash": "2a6497c0af879c0de4c2afa5729eebccc1711949"
+          }
+        },
+        {
+          "client_id": "932469711801-3apriaatra67sj9q8un2s3damjbp8gpk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCBgcKPAG2f4GmUuabInwc1TmS09gpHmSw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "932469711801-3apriaatra67sj9q8un2s3damjbp8gpk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

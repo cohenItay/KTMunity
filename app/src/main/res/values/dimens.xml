@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+ <dimen name="smallFont">10sp</dimen>
+ <dimen name="mediumFont">15sp</dimen>
+ <dimen name="largeFont">25sp</dimen>
+ <dimen name="bigFont">35sp</dimen>
+    <dimen name="cardViewWidth">200</dimen>
+    <dimen name="cardViewHeight">300</dimen>
+</resources>
